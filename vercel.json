@@ -5,7 +5,8 @@
     }
   },
   "routes": [
-    { "src": "/public/images/SNC_Logo.png", "dest": "/public/images/SNC_Logo.png"},
+    { "src": "/public/test.txt", "dest": "/public/test.txt"},
+    { "src": "/public/images/snc_logo.png", "dest": "/public/images/snc_logo.png"},
     { "src": "/css/style.css", "dest": "/css/style.css" },
     { "src": "/js/script.js", "dest": "/js/script.js" },
     { "src": "/(.*)",  "dest": "/api/index.php" }
