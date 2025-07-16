@@ -78,6 +78,10 @@ $submitUrl = "http://" . $_GET['sip'] . ":9997/login";
 	.logo-container {
 		text-align: center
 	}
+	.ver-number {
+		margin-top: 25px;
+		font-size: 13px;
+	}
   </style>
 </head>
 <body>
@@ -91,6 +95,7 @@ $submitUrl = "http://" . $_GET['sip'] . ":9997/login";
     </form>
     <div class="footer">
       By connecting, you agree to our <a href="#">terms of use</a>.
+	  <div class="ver-number">Captive Portal v1.0.3</div>
     </div>
   </div>
 </body>
