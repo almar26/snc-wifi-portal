@@ -6,7 +6,9 @@
   },
   "routes": [
     { "src": "/(.*)",  "dest": "/api/index.php" },
+    { "src": "/assets/SNC_Logo.png", "dest": "/assets/SNC_Logo.png"},
     { "src": "/css/style.css", "dest": "/css/style.css" },
-    { "src": "/js/script.js", "dest": "/js/script.js" }]
+    { "src": "/js/script.js", "dest": "/js/script.js" }
+  ]
 }
 
