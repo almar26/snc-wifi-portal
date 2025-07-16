@@ -91,8 +91,8 @@ $submitUrl = "http://" . $_GET['sip'] . ":9997/login";
 </head>
 <body>
   <div class="container">
-	<!-- <div class="logo-container"><img src="/images/SNC_Logo.png" alt="" class="logo"></div> -->
-	<img src="../public/images/SNC_Logo.png" alt="Logo" width="120" style="display: block; margin: 0 auto 1rem;" />
+	<div class="logo-container"><img src="/images/SNC_Logo.png" alt="" class="logo"></div>
+	<img src="https://thumbs.dreamstime.com/b/eagle-head-vector-logo-design-infographic-pictogram-suitable-tee-print-eagle-head-vector-logo-design-infographic-pictogram-268331550.jpg?w=768" alt="Logo" width="120" style="display: block; margin: 0 auto 1rem;" />
     <h2>Welcome SNC Free Wi-Fi</h2>
     <form method="POST" action="<?php echo htmlspecialchars($submitUrl); ?>">
       <input hidden type="text" name="username" placeholder="Student ID or Username" value="test" />
@@ -101,7 +101,7 @@ $submitUrl = "http://" . $_GET['sip'] . ":9997/login";
     </form>
     <div class="footer">
       By connecting, you agree to our <a href="#">terms of use</a>.
-	  <div class="ver-number">Captive Portal v1.0.4</div>
+	  <div class="ver-number">Captive Portal v1.0.5</div>
     </div>
   </div>
 </body>
