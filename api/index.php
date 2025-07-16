@@ -82,7 +82,7 @@ $submitUrl = "http://" . $_GET['sip'] . ":9997/login";
 </head>
 <body>
   <div class="container">
-	<div class="logo-container"><img src="../assets/SNC Logo.png" alt="" class="logo"></div>
+	<div class="logo-container"><img src="/images/SNC_Logo.png" alt="" class="logo"></div>
     <h2>Welcome SNC Free Wi-Fi</h2>
     <form method="POST" action="<?php echo htmlspecialchars($submitUrl); ?>">
       <input hidden type="text" name="username" placeholder="Student ID or Username" value="test" />
